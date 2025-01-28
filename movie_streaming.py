@@ -1,7 +1,7 @@
 import sqlite3
 import requests
 
-OMDB_API_KEY = "5ae03bea"
+OMDB_API_KEY = ""
 
 def connect_db():
     return sqlite3.connect('movie_streaming.db')
